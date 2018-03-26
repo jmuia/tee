@@ -1,0 +1,14 @@
+ tee [ -a ] [ -i ] [ File ... ]
+
+ A little implementation of POSIX tee.
+
+ Copy standard input to each FILE, and also to standard output.
+
+ -a to append to files
+ -i to ignore interrupt signals
+
+ TODO: more options for handling errors (see --output-error in GNU tee)
+ TODO: automated testing (see suggestions in source file)
+ TODO: manual buffering
+ TODO: use const
+
